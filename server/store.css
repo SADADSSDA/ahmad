@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Poppins"; 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+   background-color: aliceblue;
+   background-size: 0%;
+   background-position: center;
+   width: 100%;
+   position: fixed;
+   z-index: 999;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1en;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+
+.navigation a:hover{
+    color: #601cfc;
+}
+
+
+
+section{
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url()no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav {
+    width: 80%;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.card .border {
+   border-radius: 20px;
+   color: #3a6cf4;
+}
+
+.card {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    margin-left: 900px;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    gap: 01.33rem;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 900;
+    color: #66af0f;
+}
+
+
+/*cartmenu//////////////////////////////////////////////////////////////////*/
